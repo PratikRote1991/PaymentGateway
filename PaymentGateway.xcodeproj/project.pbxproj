@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9536992225498B700617766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9536991225498B700617766 /* AppDelegate.swift */; };
+		E9536994225498B700617766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9536993225498B700617766 /* ViewController.swift */; };
+		E9536997225498B700617766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9536995225498B700617766 /* Main.storyboard */; };
+		E9536999225498B800617766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9536998225498B800617766 /* Assets.xcassets */; };
+		E953699C225498B800617766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E953699A225498B800617766 /* LaunchScreen.storyboard */; };
+		E95369A7225498B800617766 /* PaymentGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95369A6225498B800617766 /* PaymentGatewayTests.swift */; };
+		E95369B2225498B800617766 /* PaymentGatewayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95369B1225498B800617766 /* PaymentGatewayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95369A3225498B800617766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9536986225498B600617766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953698D225498B600617766;
+			remoteInfo = PaymentGateway;
+		};
+		E95369AE225498B800617766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9536986225498B600617766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953698D225498B600617766;
+			remoteInfo = PaymentGateway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E953698E225498B700617766 /* PaymentGateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentGateway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9536991225498B700617766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9536993225498B700617766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9536996225498B700617766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9536998225498B800617766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E953699B225498B800617766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E953699D225498B800617766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95369A2225498B800617766 /* PaymentGatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentGatewayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95369A6225498B800617766 /* PaymentGatewayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGatewayTests.swift; sourceTree = "<group>"; };
+		E95369A8225498B800617766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95369AD225498B800617766 /* PaymentGatewayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentGatewayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95369B1225498B800617766 /* PaymentGatewayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGatewayUITests.swift; sourceTree = "<group>"; };
+		E95369B3225498B800617766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E953698B225498B600617766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953699F225498B800617766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95369AA225498B800617766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9536985225498B600617766 = {
+			isa = PBXGroup;
+			children = (
+				E9536990225498B700617766 /* PaymentGateway */,
+				E95369A5225498B800617766 /* PaymentGatewayTests */,
+				E95369B0225498B800617766 /* PaymentGatewayUITests */,
+				E953698F225498B700617766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E953698F225498B700617766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E953698E225498B700617766 /* PaymentGateway.app */,
+				E95369A2225498B800617766 /* PaymentGatewayTests.xctest */,
+				E95369AD225498B800617766 /* PaymentGatewayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9536990225498B700617766 /* PaymentGateway */ = {
+			isa = PBXGroup;
+			children = (
+				E9536991225498B700617766 /* AppDelegate.swift */,
+				E9536993225498B700617766 /* ViewController.swift */,
+				E9536995225498B700617766 /* Main.storyboard */,
+				E9536998225498B800617766 /* Assets.xcassets */,
+				E953699A225498B800617766 /* LaunchScreen.storyboard */,
+				E953699D225498B800617766 /* Info.plist */,
+			);
+			path = PaymentGateway;
+			sourceTree = "<group>";
+		};
+		E95369A5225498B800617766 /* PaymentGatewayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E95369A6225498B800617766 /* PaymentGatewayTests.swift */,
+				E95369A8225498B800617766 /* Info.plist */,
+			);
+			path = PaymentGatewayTests;
+			sourceTree = "<group>";
+		};
+		E95369B0225498B800617766 /* PaymentGatewayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E95369B1225498B800617766 /* PaymentGatewayUITests.swift */,
+				E95369B3225498B800617766 /* Info.plist */,
+			);
+			path = PaymentGatewayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E953698D225498B600617766 /* PaymentGateway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95369B6225498B800617766 /* Build configuration list for PBXNativeTarget "PaymentGateway" */;
+			buildPhases = (
+				E953698A225498B600617766 /* Sources */,
+				E953698B225498B600617766 /* Frameworks */,
+				E953698C225498B600617766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentGateway;
+			productName = PaymentGateway;
+			productReference = E953698E225498B700617766 /* PaymentGateway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E95369A1225498B800617766 /* PaymentGatewayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95369B9225498B800617766 /* Build configuration list for PBXNativeTarget "PaymentGatewayTests" */;
+			buildPhases = (
+				E953699E225498B800617766 /* Sources */,
+				E953699F225498B800617766 /* Frameworks */,
+				E95369A0225498B800617766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95369A4225498B800617766 /* PBXTargetDependency */,
+			);
+			name = PaymentGatewayTests;
+			productName = PaymentGatewayTests;
+			productReference = E95369A2225498B800617766 /* PaymentGatewayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E95369AC225498B800617766 /* PaymentGatewayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95369BC225498B800617766 /* Build configuration list for PBXNativeTarget "PaymentGatewayUITests" */;
+			buildPhases = (
+				E95369A9225498B800617766 /* Sources */,
+				E95369AA225498B800617766 /* Frameworks */,
+				E95369AB225498B800617766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95369AF225498B800617766 /* PBXTargetDependency */,
+			);
+			name = PaymentGatewayUITests;
+			productName = PaymentGatewayUITests;
+			productReference = E95369AD225498B800617766 /* PaymentGatewayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9536986225498B600617766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Pratik;
+				TargetAttributes = {
+					E953698D225498B600617766 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E95369A1225498B800617766 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E953698D225498B600617766;
+					};
+					E95369AC225498B800617766 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E953698D225498B600617766;
+					};
+				};
+			};
+			buildConfigurationList = E9536989225498B600617766 /* Build configuration list for PBXProject "PaymentGateway" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9536985225498B600617766;
+			productRefGroup = E953698F225498B700617766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E953698D225498B600617766 /* PaymentGateway */,
+				E95369A1225498B800617766 /* PaymentGatewayTests */,
+				E95369AC225498B800617766 /* PaymentGatewayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E953698C225498B600617766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953699C225498B800617766 /* LaunchScreen.storyboard in Resources */,
+				E9536999225498B800617766 /* Assets.xcassets in Resources */,
+				E9536997225498B700617766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95369A0225498B800617766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95369AB225498B800617766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E953698A225498B600617766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9536994225498B700617766 /* ViewController.swift in Sources */,
+				E9536992225498B700617766 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953699E225498B800617766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95369A7225498B800617766 /* PaymentGatewayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95369A9225498B800617766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95369B2225498B800617766 /* PaymentGatewayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E95369A4225498B800617766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953698D225498B600617766 /* PaymentGateway */;
+			targetProxy = E95369A3225498B800617766 /* PBXContainerItemProxy */;
+		};
+		E95369AF225498B800617766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953698D225498B600617766 /* PaymentGateway */;
+			targetProxy = E95369AE225498B800617766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9536995225498B700617766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9536996225498B700617766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E953699A225498B800617766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E953699B225498B800617766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95369B4225498B800617766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E95369B5225498B800617766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95369B7225498B800617766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentGateway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pratik.PaymentGateway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95369B8225498B800617766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentGateway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pratik.PaymentGateway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E95369BA225498B800617766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentGatewayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pratik.PaymentGatewayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentGateway.app/PaymentGateway";
+			};
+			name = Debug;
+		};
+		E95369BB225498B800617766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentGatewayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pratik.PaymentGatewayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentGateway.app/PaymentGateway";
+			};
+			name = Release;
+		};
+		E95369BD225498B800617766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentGatewayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pratik.PaymentGatewayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentGateway;
+			};
+			name = Debug;
+		};
+		E95369BE225498B800617766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentGatewayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pratik.PaymentGatewayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentGateway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9536989225498B600617766 /* Build configuration list for PBXProject "PaymentGateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95369B4225498B800617766 /* Debug */,
+				E95369B5225498B800617766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95369B6225498B800617766 /* Build configuration list for PBXNativeTarget "PaymentGateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95369B7225498B800617766 /* Debug */,
+				E95369B8225498B800617766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95369B9225498B800617766 /* Build configuration list for PBXNativeTarget "PaymentGatewayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95369BA225498B800617766 /* Debug */,
+				E95369BB225498B800617766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95369BC225498B800617766 /* Build configuration list for PBXNativeTarget "PaymentGatewayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95369BD225498B800617766 /* Debug */,
+				E95369BE225498B800617766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9536986225498B600617766 /* Project object */;
+}
